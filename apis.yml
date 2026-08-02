@@ -1,7 +1,24 @@
 aid: worklife
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worklife.png
 name: WorkLife
-description: WorkLife is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Worklife (Heroik Labs, Inc. d/b/a Worklife) was a San Francisco meeting-productivity
+  application that helped teams run highly effective meetings — agenda generation and tracking, meeting
+  organization, calendaring, collaborative real-time notes, and clear action items — with a Slack integration
+  and free and paid tiers. A 500 Global (500 Startups) portfolio company, it was acquired by Cisco on
+  October 17, 2016 and folded into the Cisco Spark collaboration platform (worklife.com redirected to
+  notes.ciscospark.com by early 2017). The standalone worklife.com domain no longer resolves and no public
+  API surface was ever published; this profile is retained as a historical portfolio-lead record.'
 url: https://raw.githubusercontent.com/api-evangelist/worklife/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cisco
+x-acquired-date: '2016-10-17'
+x-website-status: unresolved
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Meetings
+- Productivity
+- Collaboration
+- SaaS
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://worklife.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
