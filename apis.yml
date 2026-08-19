@@ -30,7 +30,7 @@ x-status: acquired
 x-acquired-by: cisco
 x-acquired-date: '2016-10-17'
 x-website-status: unresolved
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
