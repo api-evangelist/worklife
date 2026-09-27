@@ -72,3 +72,12 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
+x-lifecycle:
+  state: deprecated
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: true
+  successor: cisco
+  successor_in_catalog: true
